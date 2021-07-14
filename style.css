@@ -10,7 +10,7 @@ body{
 
 .banner-section{
     display: flex;
-    background-color: rgb(4, 0, 255);
+    background: #2D25A0;
     margin-bottom: 70px;
 }
 
@@ -43,6 +43,11 @@ body{
     color: #FFFFFF;
     font-weight: 600;
 }
+i{
+    color: #FFFFFF;
+    margin-left: 13px;
+    margin-top: 5px;
+}
 .images-section img{
     width: 500.01px;
     height: 438px;
@@ -64,6 +69,7 @@ body{
     margin-right: 120px;
     margin-bottom: 165px;
 }
+
 .player{
     width: 330px;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
@@ -86,6 +92,7 @@ body{
 }
 
 /*Footer Section*/
+
 .logo-copyright{
     text-align: center;
 }
@@ -104,6 +111,73 @@ body{
 .copyright-section p{
    font-size: 18px;
 }
+
+
+/*------Responsive Section----------
+
+Mobile Device   */
+
+@media only screen and (max-width: 688px){
+
+   body{
+       margin: 0px;
+       padding: 0px;
+   }
+
+.banner-section{
+        display: flex;
+        background: #2D25A0;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+
+    }
+
+    .player-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100px;
+
+    }
+   .player{
+   
+   }
+
+.images-section img{
+    width: 60%;
+    padding-right: 100%;
+}   
+  
+
+
+.banner-section{
+    
+}
+
+.banner-section {
+    width: 100px;
+}
+
+.banner-content h1{
+    font-size:16px
+}
+
+.header-section{
+    width: 100px;
+}
+
+
+
+
+
+
+
+    
+    }
+
+
+
 
 
 
