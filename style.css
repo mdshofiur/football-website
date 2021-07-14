@@ -110,6 +110,7 @@ i{
  }
  .single-post{
      margin: 15px;
+     cursor: pointer;
  }
  .single-post h3{
      font-size: 15px;
