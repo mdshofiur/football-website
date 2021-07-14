@@ -147,10 +147,11 @@ Mobile Device   */
     }
 
 .images-section img{
-  width: 60%;
+width: 60%;
+
     
 }   
-  
+
 .player-section {
     display: flex;
     flex-direction: column;
@@ -167,7 +168,47 @@ Mobile Device   */
     width: 150px;
     height: 63px;
     left: 18px;
+    margin-right: 30px;
     
+}
+
+
+}
+
+/* tablet devices */
+
+
+@media only screen and (min-width: 688px) and (max-width:992px){
+
+
+    .banner-section {
+        display: flex;
+        flex-direction: column;
+       
+    }
+
+    .banner-content{
+       
+    }
+
+    .images-section img{
+        width: 60%;
+    }
+
+
+    .player-section {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .player{
+       width: 260px;
+    }
+    .player img{
+        width: 230px;
+        
+    }
+
 }
 
 
@@ -182,10 +223,8 @@ Mobile Device   */
 
 
 
-
-
     
-    }
+  
 
 
 
